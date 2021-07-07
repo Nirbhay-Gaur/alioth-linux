@@ -1,5 +1,7 @@
-<h1 style="text-align: center">Manjaro i3 dotfiles</h1>
+<div style="text-align: center">
+    <h1>Manjaro i3 dotfiles</h1>
 
-<p style="text-align: center">DotFiles to rice manjaro i3 community edition with dracula theme</p>
+    <p>DotFiles to rice manjaro i3 community edition with dracula theme</p>
 
-
+    <img src="./resources/gifs/manjaro-i3-rice.gif" />
+</div>
