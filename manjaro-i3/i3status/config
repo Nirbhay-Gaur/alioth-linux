@@ -1,0 +1,96 @@
+general {
+        output_format = "i3bar"
+        colors = true
+        interval = 1
+        color_good = "#50FA7B"
+        color_degraded = "#F1FA8C"
+        color_bad = "#FF5555"
+}
+
+#order += "ipv6"
+#order += "disk /"
+#order += "disk /home"
+#order += "run_watch DHCP"
+#order += "run_watch VPN"
+#order += "wireless wlo1"
+#order += "ethernet enp8s0"
+#order += "battery all"
+order += "cpu_temperature all"
+order += "cpu_usage"
+order += "load"
+order += "memory"
+order += "tztime localdate"
+order += "tztime localtime"
+#order += "volume master"
+
+disk "/" {
+        format = "  %avail "
+        prefix_type = custom
+}
+
+disk "/home" {
+        format = "  %avail "
+        prefix_type = custom
+}
+
+run_watch DHCP {
+        pidfile = "/var/run/dhclient*.pid"
+}
+
+run_watch VPN {
+        pidfile = "/var/run/vpnc/pid"
+}
+
+wireless wlo1 {
+        format_up = "  (%quality at %essid) %ip "
+        format_down = "  "
+}
+
+ethernet enp8s0 {
+        # if you use %speed, i3status requires root privileges
+        format_up = "  %ip "
+        format_down = "  "
+}
+
+battery all {
+        format = "  %status %percentage "
+        last_full_capacity = false
+        integer_battery_capacity = true
+        low_threshold = 20
+        threshold_type = percentage
+}
+
+cpu_temperature all {
+        format = "  %degrees °C"
+        max_threshold = 60
+        path = "/sys/devices/platform/coretemp.0/hwmon/hwmon4/temp1_input"
+}
+
+cpu_usage {
+        format = "  %usage"
+}
+memory {
+        format = "  %used / %available"
+        threshold_degraded = "1G"
+        format_degraded = "MEMORY < %available"
+}
+load {
+        format = "  %1min"
+        max_threshold = 5
+}
+
+tztime localdate {
+        format = "  %a %d-%m-%Y"
+}
+
+tztime localtime {
+        format = "  %I:%M:%S %p"
+}
+
+volume master {
+        format = "  %volume "
+        format_muted = "  %volume "
+        device = "default"
+        mixer = "Master"
+        mixer_idx = 0
+}

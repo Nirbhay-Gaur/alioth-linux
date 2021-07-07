@@ -1,0 +1,49 @@
+#!/bin/sh
+
+B='#00000000'  # blank
+C='#ffffff22'  # clear ish
+D='#6272a4cc'  # default
+T='#bd93f9ee'  # text
+W='#ff5555bb'  # wrong
+V='#50fa7bbb'  # verifying
+K='#8be9fdbb'  # keypress
+
+i3lock \
+--insidever-color=$C   \
+--insidever-color=$C   \
+--ringver-color=$V     \
+\
+--insidewrong-color=$C \
+--ringwrong-color=$W   \
+\
+--inside-color=$B      \
+--ring-color=$D        \
+--line-color=$B        \
+--separator-color=$D   \
+\
+--verif-color=$T        \
+--wrong-color=$W        \
+--time-color=$T        \
+--date-color=$T        \
+--layout-color=$T      \
+--keyhl-color=$K       \
+--bshl-color=$K        \
+\
+--screen 1            \
+--blur 5              \
+--clock               \
+--indicator           \
+--time-str="%I:%M:%S %p"  \
+--date-str="%A, %m %Y" \
+--radius 100          \
+--ring-width 8        \
+--time-size 26        \
+--time-font 'Fira Code Retina'  \
+--date-font 'Fira Code Retina'  \
+--layout-font 'Fira Code Retina'  \
+--verif-font 'Fira Code Retina'  \
+--wrong-font 'Fira Code Retina'  \
+--greeter-font 'Fira Code Retina'  \
+
+
+

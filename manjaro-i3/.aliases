@@ -1,0 +1,4 @@
+# Alias fike
+
+## sudo pacman alias
+alias pac="sudo pacman"
