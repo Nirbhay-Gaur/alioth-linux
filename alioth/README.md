@@ -10,16 +10,16 @@
 </div>
 <h2>Prerequisites</h2>
 <p>Install the following packages: </p>
-<li>`i3lock-color`</li>
-<li>`i3-status`</li>
-<li>`rofi`</li>
-<li>`picom`</li>
-<li>`neovim`</li>
-<li>`kitty`</li>
-<li>`dunst`</li>
-<li>`ttf-fira-code`</li>
-<li>`nerd-fonts-source-code-pro`</li>
-<li>`ttf-font-awesome`</li>
+<li>i3lock-color</li>
+<li>i3-status</li>
+<li>rofi</li>
+<li>picom</li>
+<li>neovim</li>
+<li>kitty</li>
+<li>dunst</li>
+<li>ttf-fira-code</li>
+<li>nerd-fonts-source-code-pro</li>
+<li>ttf-font-awesome</li>
 > Assuming that manjaro i3 community edition is running on the system, most of the above packages might be already installed. To check if the package is installed: `sudo pacman -Q | grep <PACKAGE_NAME>`
 <h2>Installation</h2>
 <p><strong>Manual</strong></p>
