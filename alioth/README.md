@@ -43,14 +43,15 @@ sudo chmod +x install.sh
 
 Key                     | Value
 ------------------------|--------------------------
-Os                      | Manjaro/Arch
-Tiling window manager   | i3
-Shell (bin/sh)          | zsh
-Terminal                | kitty
-Launcher                | rofi
-Status bar              | i3-bar/i3-status
-Text Editor             | neoVim
-Compositor              | picom
-AUR Helper              | yay
-Theme                   | Dracula
-Screen Lock             | i3lock-colors
+Os                      | Manjaro/Arch             
+Tiling window manager   | i3                       
+Shell (bin/sh)          | zsh                      
+Terminal                | kitty                    
+Launcher                | rofi                     
+Status bar              | i3-bar/i3-status        
+Text Editor             | neoVim                   
+Compositor              | picom                    
+AUR Helper              | yay                      
+Theme                   | Dracula                  
+Screen Lock             | i3lock-colors            
+
