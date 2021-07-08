@@ -20,7 +20,7 @@
 <li><code>ttf-fira-code</code></li>
 <li><code>nerd-fonts-source-code-pro</code></li>
 <li><code>ttf-font-awesome</code></li>
-<blockqoute>Assuming that manjaro i3 community edition is running on the system, most of the above packages might be already installed. To check if the package is installed: <code>sudo pacman -Q | grep <PACKAGE_NAME></code></blockqoute>
+<em>Assuming that manjaro i3 community edition is running on the system, most of the above packages might be already installed. To check if the package is installed: <code>sudo pacman -Q | grep PACKAGE_NAME</code></em>
 <h2>Installation</h2>
 <p><strong>Manual</strong></p>
 <li>Install the requirements.</li>
