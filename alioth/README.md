@@ -40,22 +40,17 @@ sudo chmod +x install.sh
 </li>
 
 ## About
-- A minimal but useable desktop environment for my personal use.
-- Supports live theme changing.
 
 Key                     | Value
-------------------------|-----------------------------------
-Os                      | Artix/Arch
-Tiling window manager   | i3-gaps
-Shell (bin/sh)          | Dash
-Shell (Login)           | Fish
-Terminal                | St (https://github.com/ocdy1001/st-cody)
-Launcher                | Dmenu (https://github.com/ocdy1001/dmenu-cody)
-Status bar              | Shapebar (https://github.com/ocdy1001/shapebar)
-Prompt                  | Starship (https://github.com/starship/starship)
-Text Editor             | NeoVim
-Compositor              | Picom
-AUR Helper              | Paru
-Keymap                  | Physical: QMK (https://github.com/ocdy1001/qmk-cody)
-Notable Utils           | Scrot, Slock, Feh, Fzf, Ag, Bat, Exa, Dust
-Themes                  | Space, Nord, Gruvbox, Hawkrad
+------------------------|--------------------------
+Os                      | Manjaro/Arch
+Tiling window manager   | i3
+Shell (bin/sh)          | zsh
+Terminal                | kitty
+Launcher                | rofi
+Status bar              | i3-bar/i3-status
+Text Editor             | neoVim
+Compositor              | picom
+AUR Helper              | yay
+Theme                   | Dracula
+Screen Lock             | i3lock-colors
