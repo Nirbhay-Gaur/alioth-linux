@@ -1,7 +1,7 @@
 <div align="center">
 <h1>Alioth dotfiles</h1>
 <p><strong>Alioth is an arch linux rice customized with dracula theme running on manjaro i3 community edition</strong></p>
-  <img width="60%" src="./resources/gifs/manjaro-i3-rice.gif" /><br>
+  <img width="50%" src="./resources/gifs/manjaro-i3-rice.gif" /><br>
   <p><strong>Screenshots</strong><p>
   <img width="45%" src="./resources/screenshots/6.png">
   <img width="45%" src="./resources/screenshots/2.png">
