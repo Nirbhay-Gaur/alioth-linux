@@ -25,13 +25,13 @@
 <h2>Installation</h2>
 <p><strong>Manual</strong></p>
 <li>Install the requirements.</li>
-<li>Clone this repository: <code>git clone https://github.com/Nirbhay-Gaur/dotfiles/master/alioth.git && cd alioth</code></li>
-<li>Copy all the files from alitoh directory to $HOME directory: <code>cp * $HOME/</code></li>
+<li>Clone this repository: <code>git clone https://github.com/Nirbhay-Gaur/dotfiles/tree/master/alioth.git && cd alioth</code></li>
+<li>Copy all the files from alioth directory to $HOME directory: <code>cp * $HOME/</code></li>
 <li>Restart your computer for changes to take effect</li>
 <br>
 <p><strong>Using install.sh</strong></p>
 <li>Install the requirements.</li>
-<li>Clone this repository: <code>git clone https://github.com/Nirbhay-Gaur/dotfiles/master/alioth.git && cd alioth</code></li>
+<li>Clone this repository: <code>git clone https://github.com/Nirbhay-Gaur/dotfiles/tree/master/alioth.git && cd alioth</code></li>
 <li>Run the installation script: 
 <code>
 sudo chmod +x install.sh
@@ -41,14 +41,14 @@ sudo chmod +x install.sh
 
 ## About
 
-Key                     | Value
+Key                     | Value                    
 ------------------------|--------------------------
-Os                      | Manjaro/Arch             
+Os                      | manjaro/arch             
 Tiling window manager   | i3                       
 Shell (bin/sh)          | zsh                      
 Terminal                | kitty                    
 Launcher                | rofi                     
-Status bar              | i3-bar/i3-status        
+Status bar              | i3-bar/i3-status         
 Text Editor             | neoVim                   
 Compositor              | picom                    
 AUR Helper              | yay                      
