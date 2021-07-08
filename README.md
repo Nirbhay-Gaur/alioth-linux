@@ -1,7 +1,7 @@
 <div align="center">
 <h1>Alioth dotfiles</h1>
 <p><strong>Alioth is an arch linux rice customized with dracula theme running on manjaro i3 community edition</strong></p>
-  <img width="50%" src="./resources/gifs/manjaro-i3-rice.gif" /><br>
+  <img width="60%" src="./resources/gifs/manjaro-i3-rice.gif" /><br>
   <p><strong>Screenshots</strong><p>
   <img width="45%" src="./resources/screenshots/6.png">
   <img width="45%" src="./resources/screenshots/2.png">
@@ -25,18 +25,15 @@
 <h2>Installation</h2>
 <p><strong>Manual</strong></p>
 <li>Install the requirements.</li>
-<li>Clone this repository: <code>git clone https://github.com/Nirbhay-Gaur/dotfiles/tree/master/alioth.git && cd alioth</code></li>
-<li>Copy all the files from alioth directory to $HOME directory: <code>cp * $HOME/</code></li>
+<li>Clone this repository: <code>git clone https://github.com/Nirbhay-Gaur/alioth-linux.git && cd alioth-linux</code></li>
+<li>Replace all the default configuration files in $HOME directory with alioth dotfiles</li>
 <li>Restart your computer for changes to take effect</li>
 <br>
 <p><strong>Using install.sh</strong></p>
 <li>Install the requirements.</li>
-<li>Clone this repository: <code>git clone https://github.com/Nirbhay-Gaur/dotfiles/tree/master/alioth.git && cd alioth</code></li>
+<li>Clone this repository: <code>git clone https://github.com/Nirbhay-Gaur/alioth-linux.git && cd alioth-linux</code></li>
 <li>Run the installation script: 
-<code>
-sudo chmod +x install.sh
-./install.sh
-</code>
+<code>sudo chmod +x install.sh && ./install.sh</code>
 </li>
 
 <h2>About</h2>
@@ -47,11 +44,11 @@ sudo chmod +x install.sh
   <th>Value</th>
  </tr>
  <tr>
-  <td>Os</td>
+  <td>OS</td>
   <td>manjaro/arch</td>
  </tr>
  <tr>
-  <td>Tiling window manager</td>
+  <td>WM</td>
   <td>i3</td>
  </tr>
  <tr>
@@ -61,6 +58,10 @@ sudo chmod +x install.sh
  <tr>
    <td>Terminal</td>
    <td>kitty</td>
+ </tr>
+ <tr>
+   <td>Terminal Font</td>
+   <td>Fira Code</td>
  </tr>
  <tr>
   <td>Launcher</td>
@@ -84,6 +85,10 @@ sudo chmod +x install.sh
  </tr>
  <tr>
   <td>Theme</td>
+  <td>dracula</td>
+ </tr>
+ <tr>
+  <td>Icons</td>
   <td>dracula</td>
  </tr>
  <tr>
