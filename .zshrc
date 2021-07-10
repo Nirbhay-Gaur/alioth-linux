@@ -108,13 +108,13 @@ fi
 # Default BROWSER
 export BROWSER="$(if [[ -n $DISPLAY ]] && [[ -n $(which firefox ) ]]; then echo 'firefox'; else echo 'google-chrome-stable'; fi)"
 
-export runcpp='() {
+export runcpp() {
     clear &&
     echo Compiling... &&
     g++ "$1" -std=c++17 &&
     echo -e "\nCompiled Successfully. Now Running...\n" &&
     ./a.out;
-}'
+}
 
 export LC_CTYPE="en_GB.utf8"
 

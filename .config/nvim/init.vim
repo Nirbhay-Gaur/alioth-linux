@@ -110,8 +110,6 @@ set tabstop=4                " How many columns of whitespace a \t is worth
 set shiftwidth=4             " How many columns of whitespace a “level of indentation” is worth
 set expandtab                " Use spaces when tabbing
 set smartindent              " Enable smart indentation
-"set nowrap                   " Enable no wrapping of text
-"set clipboard+=unnamedplus   " Enable clipboard for all operations
 if !has('nvim')
     set termwinsize=8x0 " Set terminal size
 endif

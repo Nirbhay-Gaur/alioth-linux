@@ -1,0 +1,12 @@
+#!/bin/sh
+
+WS=$(i3-msg -t get_workspaces | jq -r '.[] | select(.focused==true).name')
+
+ws1=1: 
+mode_terminal="Do you wish to run terminal on current workspace? [Y/n]"
+
+if [[ "$WS" == "$ws1" ]]; then
+    i3-msg exec kitty
+else 
+    i3-msg mode "$mode_terminal"
+fi
