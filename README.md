@@ -13,7 +13,7 @@
 <li><code>i3lock-color</code></li>
 <li><code>i3-status</code></li>
 <li><code>rofi</code></li>
-<li><code>picom</code></li>
+<li><code>picom-git</code></li>
 <li><code>neovim</code></li>
 <li><code>kitty</code></li>
 <li><code>dunst</code></li>
