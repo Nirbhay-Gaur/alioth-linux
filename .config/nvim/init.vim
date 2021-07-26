@@ -1,5 +1,5 @@
 "###################################################################
-"			NeoVim Configuration File
+"			           NeoVim Configuration File
 "###################################################################
 
 
@@ -22,7 +22,7 @@ call plug#begin("~/.config/nvim/plugged")
 	Plug 'sainnhe/edge'
 
 	" PolyGlot
-	Plug 'sheerun/vim-ployglot'
+	Plug 'sheerun/vim-polyglot'
 
 	" Auto Pairs
 	Plug 'jiangmiao/auto-pairs'
@@ -165,7 +165,7 @@ filetype plugin indent on
 "------------------------------------------------------------------
 "  Coc configuration
 "------------------------------------------------------------------
-
+"
 " TextEdit might fail if hidden is not set.
 set hidden
 
@@ -216,7 +216,7 @@ endif
 " Make <CR> auto-select the first completion item and notify coc.nvim to
 " format on enter, <cr> could be remapped by other vim plugin
 inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm()
-                              \: "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"
+                              \: "\<C-g>u\<CR>\<c-r>\<CR>"
 
 " Use `[g` and `]g` to navigate diagnostics
 " Use `:CocDiagnostics` to get all diagnostics of current buffer in location list.
